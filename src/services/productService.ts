@@ -1,5 +1,6 @@
 export async function fetchEcoProducts() {
-  const response = await fetch("[https://your-backend.onrender.com/api/products");](https://your-backend.onrender.com/api/products");)
+  // TODO: Replace with your real backend URL when deployed
+  const response = await fetch("https://example.com/api/products");
   if (!response.ok) throw new Error("Failed to fetch eco products");
   return response.json();
 }
